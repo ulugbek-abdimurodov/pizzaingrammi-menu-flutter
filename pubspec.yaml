@@ -1,0 +1,32 @@
+name: pizzaingrammi
+description: A delicious pizza ordering app built with Flutter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Add custom fonts if needed
+  # fonts:
+  #   - family: Plus Jakarta Sans
+  #     fonts:
+  #       - asset: fonts/PlusJakartaSans-Regular.ttf
+  #       - asset: fonts/PlusJakartaSans-Bold.ttf
+  #         weight: 700
+
+  # Add images/icons if needed
+  # assets:
+  #   - images/
